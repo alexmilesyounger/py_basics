@@ -11,3 +11,4 @@ if not '.' in user_num: # no decimal point means the number is an integer, if th
 else: # if the number contains a decimal point and is thus a float
 	ratio = round(len(user_string) * our_num) # find the length of the user string and multiply it by the user number (which in this case is a float, then round the result and assign it to the variable ratio
 	print(user_string[ratio]) # slice into the user string, using the ratio as the index number (round must return an integer) and the print the result
+	
